@@ -1,0 +1,17 @@
+/* You can add global styles to this file, and also import other style files */
+:root{
+  --white: #F6F6F6;
+  --cream1: #D9CAB3;
+  --cream05: #C7B59B;
+  --cream2: #EEE6DA;
+  --sea-1: #6D9886;
+  --sea-2: #598070;
+  --black1: #171717;
+  --black05: #272727;
+}
+
+.h1-homepage{
+  color: var(--sea-2);
+  justify-content: center;
+  margin: auto;
+}

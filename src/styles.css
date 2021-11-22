@@ -1,1 +1,124 @@
 /* You can add global styles to this file, and also import other style files */
+
+:root{
+  --white: #F6F6F6;
+  --cream1: #D9CAB3;
+  --cream05: #C7B59B;
+  --cream2: #EEE6DA;
+  --sea-1: #6D9886;
+  --sea-2: #598070;
+  --black1: #171717;
+  --black05: #272727;
+}
+
+.d1{
+  font-family: Spectral;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 96px;
+  line-height: 115px;
+  letter-spacing: -0.05em;
+}
+
+h1{
+  font-family: Spectral;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 48px;
+
+  letter-spacing: -0.05em;
+}
+
+h2{
+  font-family: Spectral;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 38px;
+
+  letter-spacing: -0.04em;
+}
+
+h3{
+  font-family: Spectral;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 34px;
+
+  letter-spacing: -0.03em;
+}
+
+h4{
+  font-family: Spectral;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+h5{
+  font-family: Spectral;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+h6{
+  font-family: Spectral;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+p{
+  font-family: Spectral;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.background{
+  background-color: var(--cream1);
+}
+
+b{
+  font-family: Spectral;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+i{
+  font-family: Spectral;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.nav-item{
+  font-family: Spectral;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--black1);
+
+}
+
+.bg{
+  background-color: var(--cream1);
+}
+
+.active{
+  font-weight: bold;
+}

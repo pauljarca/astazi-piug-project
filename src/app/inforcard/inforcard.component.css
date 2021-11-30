@@ -1,0 +1,20 @@
+.card{
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #EEE6DA;
+  color: #272727;
+  box-shadow: 0px 4px 4px rgba(89, 128, 112, 0.16);
+}
+.card{
+  border-width: 0px;
+  padding: -10px;
+  margin: 10px;
+  max-width: 390px;
+}
+.info-cards-layout {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+

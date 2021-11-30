@@ -1,0 +1,19 @@
+.elements-align{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+}
+
+.first-col-align{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 5px;
+}
+
+.illustration{
+  max-width: 400px;
+  max-height: 400px;
+}

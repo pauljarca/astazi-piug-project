@@ -1,0 +1,26 @@
+img{
+  max-width: 100%;
+  border-radius: 16px;
+  object-fit: fill;
+  border-radius: 8px;
+  box-shadow: 0rem .2rem .2rem rgba(89, 128, 112, 0.16);
+}
+
+.card{
+  background: transparent;
+  border: 0;
+  padding-top: 12px;
+  border-radius: 16px;
+  margin: 2rem;
+}
+
+.card:hover{
+  background-color: #C7B59B;
+  transition: 1s;
+  cursor: pointer;
+}
+
+h3{
+  text-align: center;
+}
+

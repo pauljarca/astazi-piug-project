@@ -1,0 +1,26 @@
+.card{
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #EEE6DA;
+  color: #272727;
+  box-shadow: 0px 4px 4px rgba(89, 128, 112, 0.16);
+  border-width: 0px;
+  margin: 10px;
+  max-width: 390px;
+  --md-height: 240px;
+}
+.card:hover{
+  transition: 0.4s;
+  background-color: #eadcc7;
+}
+.info-cards-layout {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.row{
+  --bs-gutter-x: 0 rem;
+  --bs-gutter-y: 0 rem;
+}
+

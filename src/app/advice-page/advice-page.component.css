@@ -1,0 +1,27 @@
+.advice {
+  border-radius: 16px;
+  box-shadow: 0px 4px 4px rgba(89, 128, 112, 0.16);
+  margin: 5px;
+}
+
+.text{
+  font-family: Spectral, Serif;
+  color: #F6F6F6;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+@media screen and (max-width: 600px) {
+  .advice {
+    width: 220px;
+    height: 220px;
+  }
+}
+
+tr{
+  font-family: Spectral;
+}
+tr:hover{
+  background-color: var(--cream05);
+  transition: 0.5s;
+}

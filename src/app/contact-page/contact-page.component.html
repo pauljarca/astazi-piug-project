@@ -1,0 +1,30 @@
+<div class="container col-8 align-items-center justify-content-center">
+  <h1 style="padding-top: 6rem">Contact</h1>
+  <form style="padding-top: 1rem" (ngSubmit)="processForm()">
+    <div class="form-group">
+      <label for="numeContact">Nume</label>
+      <input type="text" name="name" class="form-control input" id="numeContact" placeholder="Prenume Nume"
+             [(ngModel)]="name" required minlength="3" #nameInput="ngModel">
+      <div class="help is-error" *ngIf="nameInput.invalid && nameInput.dirty">
+        Numele este obligatoriu, minin 3 caractere.
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="emailContact">Adresa Email</label>
+      <input type="email" name="email" class="form-control" id="emailContact" placeholder="name@example.com"
+             [(ngModel)]="email" required email #emailInput="ngModel">
+      <div class="help is-error" *ngIf="emailInput.invalid && emailInput.dirty">
+        Mai verifica o data daca e corecta adresa.
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label for="exampleFormControlTextarea1">Mesaj</label>
+      <textarea class="form-control" name="message" id="exampleFormControlTextarea1" rows="5"
+                [(ngModel)]="message" required #messageInput="ngModel"></textarea>
+    </div>
+  </form>
+  <div class="container align-items-center justify-content-center" style="padding: 1rem">
+    <button class="btn btn-dark">Trimite mesajul</button>
+  </div>
+</div>
